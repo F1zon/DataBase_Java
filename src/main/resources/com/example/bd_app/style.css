@@ -1,0 +1,15 @@
+.backgroundColor {
+    -fx-background-color: linear-gradient(to bottom right, #450045, #BC02BC);
+}
+
+.Button_menu {
+    -fx-arc-width: 248px;
+    -fx-arc-height: 69px;
+    -fx-background-color: #420042;
+}
+
+.Head_Text {
+    -fx-font-size: 64px;
+    -fx-font-weight: 700;
+    -fx-progress-color: #fff;
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="backgroundColor" stylesheets="@style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bd_app.HelloController">
+   <children>
+      <ImageView fitHeight="413.0" fitWidth="294.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/backGroundVector.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="243.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Head_Text" text="Dice Team" />
+      <VBox layoutX="310.0" layoutY="213.0" prefHeight="200.0" prefWidth="180.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" styleClass="Button_menu" stylesheets="@style.css" text="Редактировать" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button id="GoSee" onAction="#onGoSeeClick" mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" styleClass="Button_menu" stylesheets="@style.css" text="Просмотреть" textFill="WHITE">
+               <VBox.margin>
+                  <Insets top="100.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <ImageView fitHeight="50.0" fitWidth="68.0" layoutX="94.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/Ellipse4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="90.0" layoutX="640.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/Ellipse1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="90.0" layoutX="601.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/Ellipse2.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
